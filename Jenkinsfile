@@ -5,11 +5,13 @@ agent any
   {
   stage ('cmd to run')
     {
+      steps
+      {
     sh 'touch abc.txt'
     }
   }
 }
-
+}
 
 
 
